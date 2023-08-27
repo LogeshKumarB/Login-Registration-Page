@@ -1,0 +1,40 @@
+body,
+select {
+  color: #141414;
+  background: #fff;
+  font-family: "NHaasGroteskDSPro-75NBd", "HelveticaNeue", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  line-height: 42px;
+}
+
+select {
+  margin: 0;
+  padding: 0 0.75em 0 0;
+  width: auto;
+  border: none;
+  box-shadow: none;
+  background: none;
+  outline: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+select:focus {
+  outline: none;
+  border: none;
+}
+
+select:hover {
+  cursor: pointer;
+}
